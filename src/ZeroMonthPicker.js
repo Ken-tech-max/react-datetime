@@ -16,7 +16,7 @@ export default class ZeroMonthPicker extends React.Component {
     };
     
     onChangeDate = (date) => {
-        console.log('onChange:',  date.format("YYYY"));
+        console.log('onChange:',  date.format("YYYY-MM"));
     }
 
 
